@@ -1,0 +1,8 @@
+flask
+python-dotenv
+
+# library that helps to connect with database for windows: psycopg2-binary
+# for linux and MAC : psycopg2 works
+psycopg2-binary
+
+# go to terminal and write: pip install -r requirements.txt
