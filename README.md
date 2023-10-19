@@ -15,11 +15,11 @@ pip install -r requirements.txt
 python app.py
 
 # Using Postman and GET execute
-http://127.0.0.1:5000/add_ons/Uppsala
+http://127.0.0.1:5000/add_ons/Uppsala   <br/>
 http://127.0.0.1:5000/add_ons/Stockholm
 
 # Using Postman and POST execute with payload json
-http://127.0.0.1:5000/quotation
+http://127.0.0.1:5000/quotation  
 1)
 {
     "city": "Stockholm",
