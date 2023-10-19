@@ -35,7 +35,7 @@ http://127.0.0.1:5000/quotation  <br/>
 3) <br/>
 {
     "city": "Stockholm", <br/>
-    "total_square_meters_of_house": 00, <br/>
+    "total_square_meters_of_house": 250, <br/>
     "selected_add_ons": ["abc"] <br/>
 } <br/>
 
