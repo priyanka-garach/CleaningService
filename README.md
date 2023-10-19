@@ -19,24 +19,24 @@ http://127.0.0.1:5000/add_ons/Uppsala   <br/>
 http://127.0.0.1:5000/add_ons/Stockholm
 
 # Using Postman and POST execute with payload json
-http://127.0.0.1:5000/quotation  
-1)
+http://127.0.0.1:5000/quotation  <br/>
+1) <br/>
+{ <br/>
+    "city": "Stockholm", <br/>
+    "total_square_meters_of_house": 100, <br/>
+    "selected_add_ons": ["Window_cleaning", "Balcony_cleaning", "Dusting"] <br/>
+} <br/>
+2) <br/>
 {
-    "city": "Stockholm",
-    "total_square_meters_of_house": 100,
-    "selected_add_ons": ["Window_cleaning", "Balcony_cleaning", "Dusting"]
-}
-2)
+    "city": "Stockholm", <br/>
+    "total_square_meters_of_house": 00, <br/>
+    "selected_add_ons": ["Window_cleaning", "Balcony_cleaning", "Dusting"] <br/>
+} <br/>
+3) <br/>
 {
-    "city": "Stockholm",
-    "total_square_meters_of_house": 00,
-    "selected_add_ons": ["Window_cleaning", "Balcony_cleaning", "Dusting"]
-}
-3)
-{
-    "city": "Stockholm",
-    "total_square_meters_of_house": 00,
-    "selected_add_ons": ["abc"]
-}
+    "city": "Stockholm", <br/>
+    "total_square_meters_of_house": 00, <br/>
+    "selected_add_ons": ["abc"] <br/>
+} <br/>
 
 
